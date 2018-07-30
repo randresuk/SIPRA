@@ -1,0 +1,205 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body{
+   height: 100%; 
+}
+#header {
+    margin:auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+    padding-left:20px;
+    marging-top:80px;
+		
+}
+
+.nav > li {
+    float:left;
+    padding-left:20px;
+    margin-top:40px;
+}
+
+.nav li a {
+    background-color:#0af;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+    position:absolute;
+    z-index:1 ;
+	
+}
+
+.nav li ul li {
+    position:relative;
+	
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+    width: 100%;
+}
+#header {
+    background-color:#0af;
+    height: 110px;
+    z-index: 10;
+    -moz-box-shadow: 0 0 2px 1px #222;
+    -webkit-box-shadow: 0 0 2px 1px #222;
+    box-shadow: 0 0 2px 1px #222;
+}
+#header .nav {
+    float: left; 
+    margin-left: 110px;
+}
+
+.Main {
+    background-image: url("../images/Wallp1.jpg");
+    position:relative;
+    z-index:1;
+    
+}
+.Sheet{
+    background-image: url("../images/Wallp1.jpg");
+    height:653px;
+    z-index:2;
+    border: 1px solid #a1a1a1; 
+    border-radius: 10px;
+}
+.Sheet.header{
+    background:#00ADEF;
+    height:110px;
+    width:100%;
+    margin-left:20%;
+    margin-right:20%;
+    z-index:2;
+    border-radius: 10px;
+}
+.formulario ,#form1{
+    color: #fff;
+    margin-left: 53%;
+    margin-top: 20%;
+}
+.leftBlock{
+    background:#06C;
+    height: 550px;
+    position: absolute;
+    width: 25%;
+    z-index:0;
+}
+.formMain {
+   background-image: url(../images/Wallp2.jpg) ;
+    margin-left: 20%;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    z-index:0;
+}
+.divFrame{
+    margin-left:180px;
+    margin-top:60px;	
+    overflow-y: visible;
+}
+.osc{
+	/*background:#06C;*/
+}
+.clr{
+	/*background:#09C;*/
+}
+.vinc_left{
+    width:200px;
+    height:80px;
+    padding: 5px;
+    margin-top:5px;
+		
+}
+.tableClass {
+  width: 50%;
+  border: 3px solid #06c;
+  background:#0af;
+  border:2px solid #06C;
+  border-collapse:collapse;
+}
+.tableClass tbody tr td, .tableClass tbody tr th{
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #06c;
+    border-spacing: 5px;
+    padding: 0.3em;
+}
+td{
+    text-align: left !important;
+}
+.tableClass > tr{
+    width: 50%;
+    border: 3px solid #06c;
+    background:#0af;
+    border:2px solid #06C;
+    border-collapse:collapse;	
+}
+input{
+    size:"45";
+    text-align:center;
+}
+input placeholder{
+    color:#06C;
+    text-align:center;
+}
+input::-webkit-input-placeholder {
+    color:#06C;
+    text-align:center;
+}
+input:-moz-placeholder {
+    color:#06C;
+    text-align:center;
+}
+input:-ms-input-placeholder { 
+    color:#06C; 
+    text-align:center;
+}
+input .obligatorio{
+    border: 1px solid #dd4b39;    
+}
+#logo{
+    margin-left: 30%;
+    margin-top: 15%;
+}
+#BarraHeader{
+    background: rgba(26, 196, 255, 0.4) none repeat scroll 0 0;
+    color: #fff;
+    font: oblique 200%/200% "Times New Roman";
+    margin-left: 30%;
+    margin-top: 4%;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: center;
+    width: 550px;
+}
+.archivo{
+    background: #369 none repeat scroll 0 0;
+    margin-left: 20%;
+    margin-top: 30px;
+    padding: 30px;
+    width: 500px;
+}
